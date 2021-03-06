@@ -1,5 +1,6 @@
 /*
 ToDo list
+https://www.figma.com/file/rqD44gWgK1eG1b0NUSHxSE/Untitled?node-id=3%3A4
 */
 
 document.body.querySelector('.save_button').addEventListener('click', (event) => {
