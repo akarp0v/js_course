@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.red_square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.green_square {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.black_square {
+    width: 400px;
+    height: 400px;
+    background: black;
+}
