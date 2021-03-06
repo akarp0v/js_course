@@ -1,8 +1,9 @@
 /*
 Create 10 buttons, 
-show alert with button number by click, 
+show alert with button's number by click, 
 then delete button and don't show after page refreshing
 */
+
 function removeButton(event) {
     const target = event.target
     if (target.matches('button')) {

@@ -1,7 +1,6 @@
 /*
-Создать в dom 10 кнопок, при нажатии на каждую 
-должен выводиться номер кнопки через alert, 
-кнопка должна исчезать для пользователя 
+Create 10 buttons, 
+show alert with button's number by click and delete button
 */
 
 function removeButton(event) {
