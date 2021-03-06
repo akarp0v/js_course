@@ -1,6 +1,6 @@
 /*
-Добавление dom элементов в зависимости от возраста пользователя 
-(0-6: ты молод, 7-100: всё потеряно).
+Add dom element depends on age 
+(0-6: you are young, 7-100: to late).
 */
 
 const buttonSubmit = document.querySelector('.submit')
