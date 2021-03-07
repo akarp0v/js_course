@@ -1,0 +1,23 @@
+.slider__img {
+    width: 700px;
+    height: 350px;
+    min-width: 700px;
+}
+
+.slider__img img {
+    width: 100%;
+}
+
+.slider__imgs {
+    display: flex;
+    position: absolute;
+    transition: left 500ms;
+    left: 0;
+}
+
+.slider__imgs-wrapper {
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}

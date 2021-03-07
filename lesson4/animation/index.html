@@ -1,0 +1,34 @@
+<div class="cube"></div>
+
+<style>
+    .cube {
+        width: 200px;
+        height: 200px;
+        background: blue;
+        position: absolute;
+        animation: pulse 5s forwards;
+    }
+
+    @keyframes pulse {
+        0% {
+            left: 0;
+            top: 0;
+        }
+
+        80% {
+            left: calc(100% - 200px);
+            top: calc(100% - 200px);
+        }
+
+        100% {
+            left: calc(50% - 100px);
+            top: calc(50% - 100px);
+        }
+    }
+</style>
+
+<script>
+    setTimeout(() => {
+        document.body.querySelector('.cube').remove();
+    }, 5000);
+</script>
