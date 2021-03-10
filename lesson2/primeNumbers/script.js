@@ -41,14 +41,16 @@ Prime numbers from 0 to 1000
 */
 let isSimple;
 for (let i = 2; i <= 1000; i++) {
-    if (i > 2 && i % 2 !== 0 || i % 3 !== 0) {
-        isSimple = true;
-        for (let j = 2; j < i; j++) {
-            if (i % j === 0) {
-                isSimple = false;
-                break;
-            }
-        }
-        if (isSimple) console.log(i);
+    if (i > 3 && (i % 2 === 0 || i % 3 === 0)) {
+        continue;
     }
+
+    isSimple = true;
+    for (let j = 4; j < i; j++) {
+        if (i % j === 0) {
+            isSimple = false;
+            break;
+        }
+    }
+    if (isSimple) console.log(i);
 }
