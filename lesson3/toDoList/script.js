@@ -11,7 +11,7 @@ document.body.querySelector('.save_button').addEventListener('click', (event) =>
     divElem.className = 'task';
     divElem.innerHTML = `
         <div class='task_title'>${textInput.value}</div>
-        <button class='delete_button'>X</button>`;
+        <button class='delete_button'>x</button>`;
     divTasks.appendChild(divElem);
     textInput.value = '';
 })
